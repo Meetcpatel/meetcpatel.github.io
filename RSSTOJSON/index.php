@@ -1,3 +1,5 @@
+<?php 
+
 extract($_POST);
 
 
@@ -7,3 +9,4 @@ extract($_POST);
      $simpleXml = simplexml_load_string($fileContents);
      $json = json_encode($simpleXml);
      return $json;
+?>
